@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiger IT Experience | Uzzal Chandra Boissha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;600&family=Dancing+Script:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        /* Specific styles for this page */
+        .exp-hero {
+            padding: 120px 2rem 60px;
+            text-align: center;
+        }
+
+        .exp-card {
+            margin-bottom: 2rem;
+            padding: 2.5rem;
+        }
+
+        .exp-card h3 {
+            color: var(--accent-cyan);
+            margin-bottom: 1.5rem;
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .exp-list {
+            list-style: none;
+        }
+
+        .exp-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+
+        .exp-list li::before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: var(--accent-purple);
+            font-weight: bold;
+        }
+
+        .back-nav {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+        }
+
+        .impact-box {
+            border-left: 3px solid var(--accent-cyan);
+            background: rgba(0, 126, 167, 0.05);
+            padding: 1.5rem;
+            border-radius: 0 8px 8px 0;
+            margin-top: 2rem;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        /* Responsive Tweaks */
+        @media (max-width: 480px) {
+            .logo-container {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+        }
+
+        /* Responsive Tweaks */
+        @media (max-width: 768px) {
+            .exp-card {
+                padding: 1.5rem;
+            }
+
+            .exp-hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+    <div class="cursor-glow"></div>
+
+    <div class="back-nav">
+        <a href="index.html" class="glass-btn" style="padding: 0.5rem 1rem;">
+            <i class="fas fa-arrow-left"></i> Back
+        </a>
+    </div>
+
+    <main>
+        <section class="exp-hero">
+            <div class="status-pill">
+                <span class="status-light"></span>
+                Feb 2023 — Present
+            </div>
+            <h1 class="glitch-text" data-text="Tiger IT Bangladesh Ltd." style="font-size: clamp(2.5rem, 4vw, 3.5rem);">
+                Tiger IT Bangladesh Ltd.</h1>
+            <h2 class="role-title" style="color: var(--text-secondary); font-size: 1.5rem;">Technical Support
+                Assistant<br><span style="font-size: 1rem; opacity: 0.8;">(Application Support & Acting Application
+                    Support Team
+                    Lead)</span></h2>
+            <p class="hero-sub" style="margin-top: 1rem; margin-left: auto; margin-right: auto;">CAAB ICT & E-Governance
+                ERP Project</p>
+
+            <div class="logo-container">
+                <a href="https://www.tigerit.com/" target="_blank" class="glass-logo tilt-card"
+                    style="background: rgba(255, 255, 255, 0.8); padding: 15px 25px; border-radius: 12px; display: flex; align-items: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.3s; text-decoration: none;">
+                    <img src="assets/ti-logo.png" alt="Tiger IT Logo"
+                        style="height: 50px; width: auto; object-fit: contain;">
+                </a>
+                <!-- Cross removed as requested -->
+                <a href="https://caab.portal.gov.bd/" target="_blank" class="glass-logo tilt-card"
+                    style="background: rgba(255, 255, 255, 0.8); padding: 15px 25px; border-radius: 12px; display: flex; align-items: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.3s; text-decoration: none;">
+                    <img src="assets/caab-logo.png" alt="CAAB Logo"
+                        style="height: 50px; width: auto; object-fit: contain;">
+                </a>
+            </div>
+        </section>
+
+        <div class="section-container" style="padding-top: 0;">
+
+            <!-- Project Overview -->
+            <div class="glass-panel exp-card">
+                <h3><i class="fas fa-globe"></i> Project Overview</h3>
+                <p style="margin-bottom: 1rem;">Worked on a large-scale, mission-critical <strong>Enterprise Resource
+                        Planning (ERP / MIS)</strong> system for the <strong>Civil Aviation Authority of Bangladesh
+                        (CAAB)</strong>, deployed across <strong>all civil airports and CAAB operational units
+                        nationwide</strong>.</p>
+                <p>The system is hosted on <strong>on-premise infrastructure</strong> within CAAB’s secured data center
+                    and supports multi-departmental operational, financial, administrative, and regulatory workflows.
+                </p>
+            </div>
+
+            <div class="project-grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
+
+                <!-- Responsibilities 1 -->
+                <div id="app-support" class="glass-panel exp-card tilt-card">
+                    <h3><i class="fas fa-headset"></i> Application Support & Ops</h3>
+                    <ul class="exp-list">
+                        <li>Served as a <strong>core member and acting lead of the Application Support Team</strong>,
+                            providing L1–L2 application support for CAAB’s enterprise ERP system used by government
+                            officials across multiple airports.</li>
+                        <li>Acted as the <strong>primary coordination point between end users, QA, developers, database,
+                                and network teams</strong> to ensure uninterrupted service availability and issue
+                            resolution.</li>
+                        <li>Supported and monitored production ERP modules including Security Administration,
+                            Accounting, HR, Billing & Revenue, and Air Traffic Services.</li>
+                    </ul>
+                </div>
+
+                <!-- Responsibilities 2 -->
+                <div id="qa" class="glass-panel exp-card tilt-card">
+                    <h3><i class="fas fa-vial"></i> QA & Testing</h3>
+                    <ul class="exp-list">
+                        <li>Conducted <strong>Regression Testing, Functional Testing, and User Acceptance Testing
+                                (UAT)</strong> for new features, enhancements, and bug fixes prior to production
+                            deployment.</li>
+                        <li>Verified <strong>business logic, data integrity, access control, and workflow
+                                accuracy</strong> across modules aligned with government compliance and operational
+                            requirements.</li>
+                        <li>Collaborated closely with QA and Development teams to validate fixes and ensure stable
+                            releases.</li>
+                    </ul>
+                </div>
+
+                <!-- Responsibilities 3 -->
+                <div id="leadership" class="glass-panel exp-card tilt-card">
+                    <h3><i class="fas fa-users-cog"></i> Team Leadership</h3>
+                    <ul class="exp-list">
+                        <li>Functioned as the <strong>de facto Application Support Team Lead</strong>, guiding team
+                            members in issue triage, prioritization, and resolution.</li>
+                        <li>Allocated tasks, supervised daily ticket handling, and ensured SLA-driven response for
+                            routine L1 incidents.</li>
+                        <li>Coordinated <strong>on-site and remote support activities</strong> for CAAB officials,
+                            including desk support and system walkthroughs.</li>
+                    </ul>
+                </div>
+
+                <!-- Responsibilities 4 -->
+                <div id="training" class="glass-panel exp-card tilt-card">
+                    <h3><i class="fas fa-chalkboard-teacher"></i> User Training</h3>
+                    <ul class="exp-list">
+                        <li>Conducted <strong>end-user training programs</strong> for CAAB officials at multiple
+                            airports, covering ERP workflows, module usage, and operational best practices.</li>
+                        <li>Delivered <strong>remote training and live support sessions</strong> using remote access
+                            tools for geographically distributed users.</li>
+                        <li>Assisted in improving user adoption and reducing operational errors through structured
+                            guidance.</li>
+                    </ul>
+                </div>
+
+                <!-- Responsibilities 5 -->
+                <div class="glass-panel exp-card tilt-card">
+                    <h3><i class="fas fa-bug"></i> Bug Tracking & Docs</h3>
+                    <ul class="exp-list">
+                        <li>Collected, analyzed, and documented <strong>software bugs and system issues</strong>
+                            reported by end users across airports.</li>
+                        <li>Prepared <strong>structured bug reports</strong>, reproduction steps, impact analysis, and
+                            validation notes for QA & development teams.</li>
+                        <li>Performed user requirement gathering and functional specification inputs for new modules.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Responsibilities 6 -->
+                <div class="glass-panel exp-card tilt-card">
+                    <h3><i class="fas fa-exclamation-triangle"></i> Crisis Management</h3>
+                    <ul class="exp-list">
+                        <li>Participated in <strong>critical system outage recovery scenarios</strong>, providing
+                            leadership and coordination during emergency service disruptions.</li>
+                        <li>Worked remotely with network and infrastructure teams to restore ERP services during
+                            unexpected server/data center outages.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Technical Exposure -->
+            <div class="glass-panel exp-card" style="margin-top: 2rem;">
+                <h3><i class="fas fa-laptop-code"></i> Technical & Domain Exposure</h3>
+                <div class="tag-cloud" style="flex-wrap: wrap;">
+                    <span>Enterprise ERP / MIS Systems</span>
+                    <span>Government & Aviation Domain</span>
+                    <span>Software Testing (Functional, Regression, UAT)</span>
+                    <span>Bug Tracking & Documentation</span>
+                    <span>Requirement Analysis</span>
+                    <span>Production Support</span>
+                    <span>Cross-functional Collaboration</span>
+                    <span>On-Premise Infrastructure</span>
+                </div>
+            </div>
+
+            <!-- Impact -->
+            <div class="impact-box glass-panel">
+                <h3><i class="fas fa-rocket"></i> Impact Summary</h3>
+                <ul class="exp-list">
+                    <li>Supported ERP operations across <strong>all major civil airports in Bangladesh</strong>,
+                        directly impacting aviation administration, revenue, and compliance workflows.</li>
+                    <li>Helped stabilize production systems through <strong>structured testing, disciplined issue
+                            reporting, and cross-team collaboration</strong>.</li>
+                    <li>Built strong expertise in <strong>real-world enterprise software lifecycle</strong>, bridging
+                        end-user needs with engineering execution.</li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="glass-footer" style="margin-top: 2rem; width: 100%;">
+        <div style="display: flex; justify-content: center; margin-bottom: 1rem;">
+            <img src="assets/Aircraft&Horizon.png" alt="Aircraft & Horizon"
+                style="max-width: 100%; height: auto; max-height: 150px; opacity: 0.9;">
+        </div>
+        <div class="copyright">
+            &copy; 2026 Uzzal Chandra Boissha // ALL RIGHTS RESERVED
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Re-initialize any specific script functions if needed, mainly canvas
+        // script.js should handle it if it acts onDOMContentLoaded
+    </script>
+</body>
+
+</html>

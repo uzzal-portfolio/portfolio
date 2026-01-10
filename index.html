@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzzal Chandra Boissha | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;600&family=Dancing+Script:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Optional for icons, using simple unicode if fails -->
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="cursor-glow"></div>
+
+    <nav class="glass-header">
+        <div class="logo">Uzzal C. <span class="dot">Boissha</span></div>
+        <div class="nav-links">
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link highlight-btn">Contact</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <a href="#experience" class="mobile-link">Experience</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#contact" class="mobile-link highlight-btn">Contact</a>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="status-pill">
+                    <span class="status-light"></span>
+                    Open to Work
+                </div>
+                <h1 class="glitch-text" data-text="Software Support Professional">Software Support <br> Professional
+                </h1>
+                <p class="hero-sub">I am <span class="accent-text">Uzzal Chandra Boissha</span>, an eternal
+                    student, propelled by an insatiable thirst for knowledge and an inquisitive spirit that ceaselessly
+                    seeks fresh challenges and information.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="neon-btn">Personal Projects</a>
+                    <a href="Resume.pdf" class="glass-btn">Download Resume</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hologram-card tilt-card">
+                    <div class="holo-content" style="padding: 0; height: 100%;">
+                        <img src="assets/my-photo.jpeg" alt="Uzzal Chandra Boissha" class="hero-photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Strip -->
+        <section id="experience" class="section-container">
+            <h2 class="section-title">Experiences</h2>
+            <div class="timeline">
+                <div class="timeline-item glass-panel" style="display: block; text-decoration: none;">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-date">Feb 2023 — Present</div>
+                    <h3 class="role-title">Acting Software Support Team Lead <span class="company">@ Tiger IT BD
+                            Ltd.</span>
+                    </h3>
+                    <p>Orchestrating L1 Support for nationwide Government ERP systems. Executing regression &
+                        functional testing.</p>
+                    <div class="tag-cloud">
+                        <a href="experience-tigerit.html#leadership">Leadership</a>
+                        <a href="experience-tigerit.html#qa">QA</a>
+                        <a href="experience-tigerit.html#app-support">ERP</a>
+                    </div>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="experience-tigerit.html" class="view-details-btn">View Details &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section id="projects" class="section-container">
+            <h2 class="section-title">Personal Projects</h2>
+            <div class="project-grid">
+                <!-- Project New -->
+                <div class="project-card tilt-card">
+                    <div class="card-inner">
+                        <div class="project-icon">💊</div>
+                        <h3>Pharmacy IMS</h3>
+                        <p>A comprehensive, open-source web application designed to streamline pharmacy operations,
+                            including inventory management, point of sale (POS), reporting, and procurement.</p>
+                        <ul class="tech-list">
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <a href="https://github.com/uzzal-portfolio/Pharmacy_IMS" class="project-link">Source Access
+                            &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 1 -->
+                <div class="project-card tilt-card">
+                    <div class="card-inner">
+                        <div class="project-icon">☁️</div>
+                        <h3>Weather App</h3>
+                        <p>Desktop interface for real-time atmospheric data retrieval via REST API.</p>
+                        <ul class="tech-list">
+                            <li>Python</li>
+                            <li>Tkinter</li>
+                            <li>JSON</li>
+                        </ul>
+                        <a href="https://github.com/uzzal5954/Weather_Application" class="project-link">Source Access
+                            &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card tilt-card">
+                    <div class="card-inner">
+                        <div class="project-icon">💾</div>
+                        <h3>Processor Info</h3>
+                        <p>Dynamic catalog system for mobile architecture specifications.</p>
+                        <ul class="tech-list">
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>Web</li>
+                        </ul>
+                        <a href="https://github.com/uzzal5954/Microprocessor" class="project-link">Source Access
+                            &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card tilt-card">
+                    <div class="card-inner">
+                        <div class="project-icon">⚙️</div>
+                        <h3>IC Engine Portal</h3>
+                        <p>Educational database for internal combustion mechanics.</p>
+                        <ul class="tech-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>EdTech</li>
+                        </ul>
+                        <a href="https://github.com/uzzal5954/IC_engine" class="project-link">Source Access &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section-container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item tilt-card">
+                    <img src="assets/image1.jpg" alt="Gallery Image 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>During crisis management & system recovery.</p>
+                    </div>
+                </div>
+                <div class="gallery-item tilt-card">
+                    <img src="assets/image2.jpg" alt="Gallery Image 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Empowering teams through system knowledge sharing.</p>
+                    </div>
+                </div>
+                <div class="gallery-item tilt-card">
+                    <img src="assets/image3.jpeg" alt="Gallery Image 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>With my amazing team.</p>
+                    </div>
+                </div>
+                <div class="gallery-item tilt-card">
+                    <img src="assets/image4.png" alt="Gallery Image 4" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>During knowledge sharing in Rajshahi Airport tower.</p>
+                    </div>
+                </div>
+                <div class="gallery-item tilt-card">
+                    <img src="assets/image5.jpg" alt="Gallery Image 5" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>During Cox's Bazar Airport operational training.</p>
+                    </div>
+                </div>
+                <div class="gallery-item tilt-card">
+                    <img src="assets/image6.jpg" alt="Gallery Image 6" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>During HSIA operation site visiting.</p>
+                    </div>
+                </div>
+                <div class="gallery-item tilt-card">
+                    <img src="assets/image7.jpeg" alt="Gallery Image 7" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Traveling during Cox's Bazar Airport operation site visiting.</p>
+                    </div>
+                </div>
+                <div class="gallery-item tilt-card">
+                    <img src="assets/image8.jpg" alt="Gallery Image 8" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Receiving web-development contest winner prize(DPI).</p>
+                    </div>
+                </div>
+                <div class="gallery-item tilt-card">
+                    <img src="assets/image9.jpg" alt="Gallery Image 9" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Celebrating a successful project party.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Marquee -->
+        <div class="marquee-wrapper">
+            <div class="marquee-track">
+                <!-- Set 1 -->
+                <div class="skill-pill"><i class="fab fa-python"></i> Python</div>
+                <div class="skill-pill"><i class="fas fa-database"></i> SQL</div>
+                <div class="skill-pill"><i class="fas fa-server"></i> DBMS</div>
+                <div class="skill-pill"><i class="fas fa-check-double"></i> Manual Testing</div>
+                <div class="skill-pill"><i class="fab fa-java"></i> Java</div>
+                <div class="skill-pill"><i class="fab fa-git-alt"></i> Git</div>
+                <div class="skill-pill"><i class="fab fa-linux"></i> Linux</div>
+                <div class="skill-pill"><i class="fas fa-terminal"></i> Arch Linux</div>
+                <div class="skill-pill"><i class="fas fa-robot"></i> Automation</div>
+                <div class="skill-pill"><i class="fas fa-network-wired"></i> API</div>
+
+                <!-- Set 2 (Duplicate for seamless loop) -->
+                <div class="skill-pill"><i class="fab fa-python"></i> Python</div>
+                <div class="skill-pill"><i class="fas fa-database"></i> SQL</div>
+                <div class="skill-pill"><i class="fas fa-server"></i> DBMS</div>
+                <div class="skill-pill"><i class="fas fa-check-double"></i> Manual Testing</div>
+                <div class="skill-pill"><i class="fab fa-java"></i> Java</div>
+                <div class="skill-pill"><i class="fab fa-git-alt"></i> Git</div>
+                <div class="skill-pill"><i class="fab fa-linux"></i> Linux</div>
+                <div class="skill-pill"><i class="fas fa-terminal"></i> Arch Linux</div>
+                <div class="skill-pill"><i class="fas fa-robot"></i> Automation</div>
+                <div class="skill-pill"><i class="fas fa-network-wired"></i> API</div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="contact" class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h4>Let's Build Something Amazing</h4>
+                <p>uzzalchandraboissha@gmail.com</p>
+                <p>Dhaka, Bangladesh</p>
+            </div>
+            <div class="footer-right">
+                <ul class="social-list">
+                    <li><a href="https://www.linkedin.com/in/uzzal-chandra-boissha-997792187/" target="_blank"><i
+                                class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="https://github.com/uzzal5954" target="_blank"><i class="fab fa-github"></i> Github</a>
+                    </li>
+                    <li><a href="https://www.facebook.com/ucb.uzzal/" target="_blank"><i class="fab fa-facebook"></i>
+                            Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-slogan">
+            Learn to Earn, Earn for Hobbies
+        </div>
+
+        <!-- Image removed for index.html as requested -->
+
+        <div class="copyright">
+            &copy; 2023 Uzzal Chandra Boissha // ALL RIGHTS RESERVED
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
